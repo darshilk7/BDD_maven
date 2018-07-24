@@ -14,7 +14,7 @@ public class StepDefinition1 {
 	public void login_application_should_be_available() throws Throwable {
 		driver = new FirefoxDriver();
 		driver.get("https://opensource-demo.orangehrmlive.com");
-	  
+		System.out.println("Hey Hello !");
 	   
 	}
 
